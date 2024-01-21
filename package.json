@@ -2,7 +2,7 @@
 	"name": "zero-front",
 	"version": "0.1.0",
 	"private": true,
-	"homepage": "https://chahyerin.github.io/out",
+	"homepage": "https://chahyerin.github.io/chahyerin.github.io",
 	"scripts": {
 		"dev": "next dev",
 		"build": "next build",
