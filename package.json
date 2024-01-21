@@ -2,16 +2,20 @@
 	"name": "zero-front",
 	"version": "0.1.0",
 	"private": true,
-	"homepage": "https://chahyerin.github.io/chahyerin.github.io",
+	"homepage": "https://chahyerin.github.io/chahyerin.github.io/",
 	"scripts": {
 		"dev": "next dev",
 		"build": "next build",
+		"prestart": "yarn run build",
 		"start": "npx serve@latest out",
 		"lint": "next lint",
-		"serve": "npx http-server out"
+		"serve": "npx http-server out",
+		"predeploy": "yarn run build",
+		"deploy": "touch out/.nojekyll && gh-pages -d out --dotfiles"
 	},
 	"dependencies": {
 		"@emailjs/browser": "^3.11.0",
+		"gh-pages": "^6.1.1",
 		"next": "^14.0.1",
 		"react": "^18",
 		"react-dom": "^18",
