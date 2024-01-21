@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.english {
+  font-family: var(--font-inria-serif);
+}
+
+body {
+  background: #000000;
+  color: #ffffff;
+}
+
