@@ -2,11 +2,11 @@
 	"name": "zero-front",
 	"version": "0.1.0",
 	"private": true,
-	"homepage": "https://chahyerin.github.io/",
+	"homepage": "https://chahyerin.github.io/out",
 	"scripts": {
 		"dev": "next dev",
-		"build": "next build && next export",
-		"start": "next start",
+		"build": "next build",
+		"start": "npx serve@latest out",
 		"lint": "next lint",
 		"serve": "npx http-server out"
 	},
